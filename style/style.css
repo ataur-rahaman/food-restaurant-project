@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#hero{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 1583px;
+    /* height: 100vh;
+    width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),url("../assets/hero-bg.png");;
+}
+
+#hero .hero-content{
+    width: 850px;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#hero .hero-content .subtitle{
+    opacity: 0.8;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#hero .hero-content .headings{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 53px;
+    font-weight: 581;
+    line-height: 66px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#hero .hero-content .descriptions{
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 415;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#hero .hero-content .btn{
+    padding: 17px 27px 17px 27px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 17px;
+    font-weight: 498;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    background: rgb(82, 195, 3);
+    cursor: pointer;
+}
+
+#card-box{
+    height: 100vh;
+    width: 1583px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-box .card-cont{
+    width: 1096px;
+    height: 616px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+#card-box .card-cont a button{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 15px 25px 15px 25px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(82, 195, 3);
+}
+
+#card-box .card-cont .subtitle{
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 415;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#card-box .card-cont .headings{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 581;
+    line-height: 53px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#card-box .card-cont .card-cont-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#card-box .card-cont .card-cont-child .cards{
+    width: 352px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+}
+
+#card-box .card-cont .card-cont-child .cards img{
+    width: 100%;
+    border-radius: 13px;
+}
+
+#card-box .card-cont .card-cont-child .cards .brands span{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 498;
+    line-height: 23px;
+    padding: 11px 26px 11px 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 6px;
+    background: rgba(82, 195, 3, 0.15);
+}
+
+#card-box .card-cont .card-cont-child .cards h2{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 33px;
+    font-weight: 498;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#card-box .card-cont .card-cont-child .cards p{
+    opacity: 0.7;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 415;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#card-box .card-cont .btnn{
+    display: flex;
+    justify-content: center;
+    margin-top: 53px;
+}
+
+#card-box .card-cont .btnn button{
+    padding: 17px 27px 17px 27px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 17px;
+    font-weight: 498;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    background: rgb(82, 195, 3);
+    cursor: pointer;
+}
